@@ -56,12 +56,12 @@
 		2C8AB0B6243334F100504A92 /* Traffic light */ = {
 			isa = PBXGroup;
 			children = (
+				2C8AB0C2243334F600504A92 /* LaunchScreen.storyboard */,
+				2C8AB0BD243334F100504A92 /* Main.storyboard */,
 				2C8AB0B7243334F100504A92 /* AppDelegate.swift */,
 				2C8AB0B9243334F100504A92 /* SceneDelegate.swift */,
 				2C8AB0BB243334F100504A92 /* ViewController.swift */,
-				2C8AB0BD243334F100504A92 /* Main.storyboard */,
 				2C8AB0C0243334F600504A92 /* Assets.xcassets */,
-				2C8AB0C2243334F600504A92 /* LaunchScreen.storyboard */,
 				2C8AB0C5243334F600504A92 /* Info.plist */,
 			);
 			path = "Traffic light";
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJYLXJKAL;
 				INFOPLIST_FILE = "Traffic light/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.Traffic-light";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJYLXJKAL;
 				INFOPLIST_FILE = "Traffic light/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.Traffic-light";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
