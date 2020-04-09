@@ -96,10 +96,13 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="MUU-gq-Cmr" secondAttribute="height" multiplier="18:5" id="Ckb-dc-x3S"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonForStartPressed" destination="quP-Ze-zrK" eventType="touchUpInside" id="yzI-LY-3Lv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -120,6 +123,12 @@
                         <viewLayoutGuide key="safeArea" id="Fhe-0A-WVh"/>
                     </view>
                     <navigationItem key="navigationItem" id="kJG-QE-b8K"/>
+                    <connections>
+                        <outlet property="buttonForStart" destination="MUU-gq-Cmr" id="MGv-nP-7TB"/>
+                        <outlet property="greenLight" destination="wNp-DG-CuF" id="Swf-xF-srR"/>
+                        <outlet property="redLight" destination="wNp-DG-CuF" id="4JV-0T-n8H"/>
+                        <outlet property="yellowLight" destination="wNp-DG-CuF" id="5gF-Bw-Ydw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oJ-aC-c9v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
